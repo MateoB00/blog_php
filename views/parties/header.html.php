@@ -23,7 +23,7 @@
         <?php if (!empty($_SESSION['pseudo'])) { ?>
             <div class="pseudo">
                 <a class="affPseudo"><?= $_SESSION['pseudo'] ?></a>
-                <img src="<?= $_SESSION['avatar'] ?>" alt="avatar">
+                <img class="avatar" src="<?= $_SESSION['avatar'] ?>" alt="avatar">
             <?php } ?>
 
     </nav>
