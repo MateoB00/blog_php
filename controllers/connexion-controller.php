@@ -11,7 +11,7 @@ if (!empty($_POST['mot_de_passe']) && !empty($_POST['identifiant'])) {
 
             $_SESSION['pseudo'] = $utilisateur->pseudo;
             $_SESSION['id'] = $utilisateur->id;
-            // $_SESSION['avatar'] = $utilisateur->avatar;
+            $_SESSION['avatar'] = $utilisateur->avatar;
 
             redirection('home');
         }
