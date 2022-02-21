@@ -44,6 +44,9 @@ switch ($route) {
     case 'inscription':
         include DOSSIER_CONTROLLER . '/inscription-controller.php';
         break;
+    case 'ajoutCommentaire':
+        include DOSSIER_CONTROLLER . '/ajout-commentaire-controller.php';
+        break;
     default:
         error();
 }
