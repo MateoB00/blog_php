@@ -14,7 +14,9 @@
     <nav class="nav justify-content-center">
         <a class="nav-link" href="<?= url("home") ?>">Accueil</a>
         <a class="nav-link" href="<?= url("liste-articles") ?>">Liste de nos articles</a>
-        <a class="nav-link" href="<?= url("ajout") ?>">Ajouter un article</a>
+        <?php if (!empty($_SESSION['pseudo']) && $_SESSION['role'] == 'admin') { ?>
+            <a class="nav-link" href="<?= url("ajout") ?>">Ajouter un article</a>
+        <?php } ?>
         <?php if (empty($_SESSION['pseudo'])) { ?>
             <a class="nav-link" href="<?= url("connexion") ?>">Se connecter</a>
         <?php } else { ?>

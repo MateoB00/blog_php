@@ -12,6 +12,7 @@ if (!empty($_POST['mot_de_passe']) && !empty($_POST['identifiant'])) {
             $_SESSION['pseudo'] = $utilisateur->pseudo;
             $_SESSION['id'] = $utilisateur->id;
             $_SESSION['avatar'] = $utilisateur->avatar;
+            $_SESSION['role'] = $utilisateur->role;
 
             if (!empty($_POST['cookieID'])) {
                 setcookie('cookieID', $utilisateur->id, time() + 2628000);
