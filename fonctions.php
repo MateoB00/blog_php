@@ -2,7 +2,7 @@
 
 function connexionBDD()
 {
-    require_once __DIR__ . '/models/SimpleOrm.php';
+    require_once DOSSIER_MODEL . '/SimpleOrm.php';
     $connexion = new mysqli('localhost', 'root', 'root');
 
     if ($connexion->connect_error) die(sprintf('Impossible de se connecter à la BDD. %s', $connexion->connect_error));

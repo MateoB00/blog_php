@@ -16,5 +16,6 @@
         <a class="nav-link" href="<?= url("liste-articles") ?>">Liste de nos articles</a>
         <a class="nav-link" href="<?= url("ajout") ?>">Ajouter un article</a>
         <a class="nav-link" href="<?= url("connexion") ?>">Se connecter</a>
+        <a class="nav-link" href="<?= url("deconnexion") ?>">Se déconnecter</a>
     </nav>
     <div class="container text-center">

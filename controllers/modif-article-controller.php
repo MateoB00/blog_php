@@ -3,7 +3,7 @@
 
 if (empty($_GET['id'])) error();
 
-require_once __DIR__ . '/../models/Article.php';
+require_once DOSSIER_MODEL . '/Article.php';
 $article = Article::retrieveByPK($_GET['id']);
 
 if (empty($article)) error();
@@ -33,4 +33,4 @@ if (!empty($_POST)) {
     } else error();
 }
 
-require_once __DIR__ . '/../views/modif-article.html.php';
+require_once DOSSIER_VIEW . '/modif-article.html.php';

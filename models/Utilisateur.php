@@ -1,5 +1,6 @@
 <?php
 
+require_once DOSSIER_MODEL . '/SimpleOrm.php';
 class Utilisateur extends SimpleOrm
 {
 

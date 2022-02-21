@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . "/parties/header.html.php";
+require_once DOSSIER_VIEW . "/parties/header.html.php";
 
 ?>
 
@@ -51,4 +51,4 @@ require_once __DIR__ . "/parties/header.html.php";
 
 </form>
 
-<?php include __DIR__ . '/parties/footer.html.php';
+<?php require_once DOSSIER_VIEW . "/parties/footer.html.php";

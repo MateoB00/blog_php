@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/SimpleOrm.php';
+require_once DOSSIER_MODEL . '/SimpleOrm.php';
 
 class Article extends SimpleOrm
 {

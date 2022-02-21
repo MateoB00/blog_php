@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/parties/header.html.php'; ?>
+require_once DOSSIER_VIEW . "/parties/header.html.php";; ?>
 
 <h1>Nos Articles !</h1>
 
@@ -22,4 +22,4 @@ foreach ($articles as $article) { ?>
 
 <?php } ?>
 <?php
-require_once __DIR__ . '/parties/footer.html.php';
+require_once DOSSIER_VIEW . "/parties/footer.html.php";

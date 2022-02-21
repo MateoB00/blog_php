@@ -1,6 +1,6 @@
 
 <?php
 
-require_once __DIR__ . "/../models/Article.php";
+require_once DOSSIER_MODEL . "/Article.php";
 $articles = Article::all();
-require_once __DIR__ . "/../views/liste-articles.html.php";
+require_once DOSSIER_VIEW . "/liste-articles.html.php";

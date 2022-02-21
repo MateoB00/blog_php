@@ -1,6 +1,6 @@
 <?php
 if (empty($_GET["id"])) error();
-require_once __DIR__ . '/../models/Article.php';
+require_once DOSSIER_MODEL . '/Article.php';
 $article = Article::retrieveByPK($_GET['id']);
 
 if (empty($article)) error();

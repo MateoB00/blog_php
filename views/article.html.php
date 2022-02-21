@@ -1,4 +1,4 @@
-<?php require_once __DIR__ . '/parties/header.html.php';
+<?php require_once DOSSIER_VIEW . "/parties/header.html.php";
 ?>
 
 <h1><?= $article->titre ?></h1>
@@ -10,5 +10,5 @@
     <span>Ecrit le : <?= $article->date_de_publication ?></span>
 </div>
 
-<?php require_once __DIR__ . '/parties/footer.html.php';
+<?php require_once DOSSIER_VIEW . "/parties/footer.html.php";
 ?>

@@ -1,4 +1,4 @@
 
 <?php
 
-require_once __DIR__ . '/../views/home.html.php';
+require_once DOSSIER_VIEW . '/home.html.php';

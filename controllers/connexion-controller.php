@@ -19,4 +19,4 @@ if (!empty($_POST['mot_de_passe']) && !empty($_POST['identifiant'])) {
     }
 }
 
-require_once __DIR__ . '/../views/connexion.php';
+require_once DOSSIER_VIEW . '/connexion.php';

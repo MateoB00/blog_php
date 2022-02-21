@@ -25,4 +25,4 @@ if (!empty($_POST)) {
     } else $error = "Vous avez mal rempli le formulaire";
 }
 
-require_once __DIR__ . '/../views/ajout-article.html.php';
+require_once DOSSIER_VIEW . '/ajout-article.html.php';
