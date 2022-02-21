@@ -28,6 +28,9 @@ switch ($route) {
     case 'suppr':
         include __DIR__ . '/controllers/suppr-article-controller.php';
         break;
+    case 'connexion':
+        include __DIR__ . '/controllers/connexion-controller.php';
+        break;
 
     default:
         error();
