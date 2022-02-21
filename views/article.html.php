@@ -32,13 +32,6 @@
         </div>
     </div>
     <div class="form-group row">
-        <label for="date" class="col-12 col-form-label">Date de publication</label>
-        <div class="col-12">
-            <input type="date" class="form-control" name="date_publication" id="date" required>
-        </div>
-    </div>
-    </div>
-    <div class="form-group row">
         <button type="submit" class="btn btn-primary">Envoyer</button>
     </div>
 </form>
