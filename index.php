@@ -38,6 +38,9 @@ switch ($route) {
     case 'connexion':
         include DOSSIER_CONTROLLER . '/connexion-controller.php';
         break;
+    case 'deconnexion':
+        include DOSSIER_CONTROLLER . '/deconnexion-controller.php';
+        break;
 
     default:
         error();
