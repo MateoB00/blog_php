@@ -4,7 +4,7 @@ require_once DOSSIER_VIEW . "/parties/header.html.php";
 
 ?>
 
-<h1>Ajoute un article</h1>
+<h1>Inscription</h1>
 
 
 <form method="post">
@@ -33,13 +33,13 @@ require_once DOSSIER_VIEW . "/parties/header.html.php";
         </div>
     </div>
     <div class="form-group row">
-        <label for="mot_de_passe" class="col-12 col-form-label">Mot de passe</label>
+        <label for="mot_de_passe" class="col-12 col-form-label">Mot de passe :</label>
         <div class="col-12">
             <input type="password" class="form-control" name="mot_de_passe" id="mot_de_passe" placeholder="Mot de passe" required>
         </div>
     </div>
     <div class="form-group row">
-        <label for="confirmationMDP" class="col-12 col-form-label">Confirme ton mot de passe</label>
+        <label for="confirmationMDP" class="col-12 col-form-label">Confirme ton mot de passe :</label>
         <div class="col-12">
             <input type="password" class="form-control" name="confirmationMDP" id="confirmationMDP" placeholder="Confirmation" required>
         </div>
