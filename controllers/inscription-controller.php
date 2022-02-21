@@ -8,6 +8,7 @@ if (!empty($_POST)) {
         && !empty($_POST['mot_de_passe'])
         && filter_var($_POST['avatar'], FILTER_VALIDATE_URL) !== false
         && (substr($_POST['avatar'], -4) == '.jpg' || substr($_POST['image'], -4) == '.png' || substr($_POST['image'], -5) == '.jpeg' || substr($_POST['image'], -4) == '.gif')
+        && $_POST['mot_de_passe'] === $_POST['confirmationMDP']
     ) {
 
         require_once DOSSIER_MODEL . '/Utilisateur.php';

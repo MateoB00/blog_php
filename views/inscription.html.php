@@ -39,6 +39,12 @@ require_once DOSSIER_VIEW . "/parties/header.html.php";
         </div>
     </div>
     <div class="form-group row">
+        <label for="confirmationMDP" class="col-12 col-form-label">Confirme ton mot de passe</label>
+        <div class="col-12">
+            <input type="password" class="form-control" name="confirmationMDP" id="confirmationMDP" placeholder="Confirmation" required>
+        </div>
+    </div>
+    <div class="form-group row">
         <button type="submit" class="btn btn-primary">Envoyer</button>
     </div>
 
