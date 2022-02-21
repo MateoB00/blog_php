@@ -36,6 +36,6 @@ if ($_SESSION['role'] == "admin") {
         } else error();
     }
 } else if (empty($_SESSION['role'])) {
-    $error = "Qu'est ce que vous faites là ?";
+    redirection("home");
 }
 require_once DOSSIER_VIEW . '/modif-article.html.php';

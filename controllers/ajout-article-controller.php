@@ -25,7 +25,7 @@ if ($_SESSION['role'] == "admin") {
         } else $error = "Vous avez mal rempli le formulaire";
     }
 } else if (empty($_SESSION['role'])) {
-    $error = "Qu'est ce que vous faites là ?";
+    redirection("home");
 }
 
 
