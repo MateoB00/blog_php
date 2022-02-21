@@ -10,5 +10,13 @@
     <span>Ecrit le : <?= $article->date_de_publication ?></span>
 </div>
 
+<h3>Nos commentaires :</h3>
+
+<?php foreach ($commentaires as $commentaire) { ?>
+    <p>ID_Utilisateur : <?= $commentaire->id_utilisateur ?></p>
+    <p>Commentaire : <?= $commentaire->contenu ?></p>
+    <div>Date du commentaire : <strong><?= mb_strtoupper($commentaire->date_publication) ?></strong></div></br>
+<?php } ?>
+
 <?php require_once DOSSIER_VIEW . "/parties/footer.html.php";
 ?>
