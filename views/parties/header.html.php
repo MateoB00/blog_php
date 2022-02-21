@@ -20,6 +20,11 @@
         <?php } else { ?>
             <a class="nav-link" href="<?= url("deconnexion") ?>">Se déconnecter</a>
         <?php } ?>
-        <a class="nav-link" href="<?= url("inscription") ?>">S'inscrire</a>
+        <?php if (!empty($_SESSION['pseudo'])) { ?>
+            <div class="pseudo">
+                <a class="affPseudo"><?= $_SESSION['pseudo'] ?></a>
+                <img src="<?= $_SESSION['avatar'] ?>" alt="avatar">
+            <?php } ?>
+
     </nav>
     <div class="container text-center">

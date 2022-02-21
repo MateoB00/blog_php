@@ -41,5 +41,6 @@
         </div>
     </div>
 </form>
+<a class="nav-link" href="<?= url("inscription") ?>">S'inscrire</a>
 
 <?php require_once DOSSIER_VIEW . "/parties/footer.html.php"; ?>
