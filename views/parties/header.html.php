@@ -15,8 +15,11 @@
         <a class="nav-link" href="<?= url("home") ?>">Accueil</a>
         <a class="nav-link" href="<?= url("liste-articles") ?>">Liste de nos articles</a>
         <a class="nav-link" href="<?= url("ajout") ?>">Ajouter un article</a>
-        <a class="nav-link" href="<?= url("connexion") ?>">Se connecter</a>
-        <a class="nav-link" href="<?= url("deconnexion") ?>">Se déconnecter</a>
+        <?php if (empty($_SESSION['pseudo'])) { ?>
+            <a class="nav-link" href="<?= url("connexion") ?>">Se connecter</a>
+        <?php } else { ?>
+            <a class="nav-link" href="<?= url("deconnexion") ?>">Se déconnecter</a>
+        <?php } ?>
         <a class="nav-link" href="<?= url("inscription") ?>">S'inscrire</a>
     </nav>
     <div class="container text-center">
