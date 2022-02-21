@@ -41,7 +41,9 @@ switch ($route) {
     case 'deconnexion':
         include DOSSIER_CONTROLLER . '/deconnexion-controller.php';
         break;
-
+    case 'inscription':
+        include DOSSIER_CONTROLLER . '/inscription-controller.php';
+        break;
     default:
         error();
 }

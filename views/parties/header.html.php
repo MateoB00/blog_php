@@ -17,5 +17,6 @@
         <a class="nav-link" href="<?= url("ajout") ?>">Ajouter un article</a>
         <a class="nav-link" href="<?= url("connexion") ?>">Se connecter</a>
         <a class="nav-link" href="<?= url("deconnexion") ?>">Se déconnecter</a>
+        <a class="nav-link" href="<?= url("inscription") ?>">S'inscrire</a>
     </nav>
     <div class="container text-center">
